@@ -455,14 +455,14 @@ legitimate.to_csv('legitimate.csv', index= False)
 # In[36]:
 
 
-urldata = pd.concat([legitimate, phishing]).reset_index(drop=True)
-urldata.head()
+Finaldata = pd.concat([legitimate, phishing]).reset_index(drop=True)
+Finaldata.head()
 
 
 # In[37]:
 
 
-urldata.tail()
+Finaldata.tail()
 
 
 # In[ ]:
